@@ -52,18 +52,12 @@ print(f[70] + f[56] - f[66] - f[44])'''
     if bin(n)[2:].count('0') == 2000:
         print(x)'''
 
-def nine(n):
-    s = ''
-    while n > 0:
-        s = str(n % 9) + s
-        n //= 9
-    return s
+'''from itertools import product
 
 cnt = 0
 
-for x in range(1_000_000, 10_000_000):
-    x = nine(x)
-    if (int(x[0]) % 2 == 0) and (int(x[-1]) % 3 != 0) and (x.count('6') > 1):
+for x in product('012345678', repeat=7):
+    x = ''.join(x)
+    if (int(x[0]) % 2 == 0) and (int(x[-1]) % 3 != 0) and (x.count('6') >= 1) and (x[0] != '0'):
         cnt += 1
-
-print(cnt)
+print(cnt)'''
