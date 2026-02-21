@@ -60,9 +60,10 @@ def nine(n):
     return s
 
 cnt = 0
-print(nine(81))
+
 for x in range(1_000_000, 10_000_000):
     x = nine(x)
     if (int(x[0]) % 2 == 0) and (int(x[-1]) % 3 != 0) and (x.count('6') > 1):
         cnt += 1
+
 print(cnt)
