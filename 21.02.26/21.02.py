@@ -61,3 +61,56 @@ for x in product('012345678', repeat=7):
     if (int(x[0]) % 2 == 0) and (int(x[-1]) % 3 != 0) and (x.count('6') >= 1) and (x[0] != '0'):
         cnt += 1
 print(cnt)'''
+
+'''print('w x y z f')
+for w in range(2):
+    for x in range(2):
+        for y in range(2):
+            for z in range(2):
+                if ((x == y) and (z and (not w))) == (not (((y <= w) and (z == y)) or y)):
+                    f = 1
+                else:
+                    f = 0
+                print(w, x, y, z, f)
+
+w x y z f
+0 1 0 1 0
+0 1 1 1 0
+1 0 0 1 0
+1 1 0 1 0
+
+xwyz'''
+
+'''def six(n):
+    s = ''
+    while n > 0:
+        s = str(n % 6) + s
+        n //= 6
+    return s
+
+res = []
+
+for n in range(1, 500):
+    r = six(n)
+    if n % 3 == 0:
+        r += r[:2]
+
+    else:
+        r += six((n % 3) * 10)
+    if n == 11 or n == 12:
+        print(int(r, 6))
+    if int(r, 6) > 680:
+        res.append(int(r, 6))
+
+print(min(res))'''
+
+'''a = [list(map(int, line.split())) for line in open('9_5126.txt')]
+
+cnt = 0
+
+for i in range(len(a)):
+    repeated = [num for num in a[i] if a[i].count(num) == 3]
+    not_repeated = [num for num in a[i] if a[i].count(num) == 1]
+    if len(repeated) == 3 and sum(not_repeated) / 3 <= sum(repeated) and len(set(a[i])) == 4:
+        cnt += 1
+print(cnt)'''
