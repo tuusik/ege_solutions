@@ -114,3 +114,46 @@ for i in range(len(a)):
     if len(repeated) == 3 and sum(not_repeated) / 3 <= sum(repeated) and len(set(a[i])) == 4:
         cnt += 1
 print(cnt)'''
+
+from turtle import *
+screensize(10000, 10000)
+tracer(0)
+lt(90)
+up()
+k = 20
+for _ in range(9):
+    fd(15*k)
+    rt(90)
+    fd(25*k)
+    rt(90)
+
+up()
+bk(10*k)
+rt(90)
+down()
+
+for _ in range(8):
+    fd(15*k)
+    lt(90)
+    fd(25*k)
+    lt(90)
+
+up()
+fd(6*k)
+lt(90)
+down()
+
+for _ in range(7):
+    fd(15*k)
+    rt(90)
+    fd(25*k)
+    rt(90)
+
+up()
+for x in range(-50, 50):
+    for y in range(-50, 50):
+        goto(x*k, y*k)
+        dot(5, 'green')
+
+update()
+exitonclick()
