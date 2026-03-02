@@ -1,0 +1,21 @@
+spi=[]
+for N in range(1,1000):
+    n=N
+    x=''
+    while n>0:
+        x=str(n%6)+x
+        n=n//6
+    if N%3==0:
+        b=x[:2]
+        a=x+b
+    elif N%3!=0:
+        b=(int(N)%3)*10
+        y=''
+        while b>0:
+            y=str(b%6)+y
+            b=b//6
+        a=x+y
+    R=int(a,6)
+    if R>680:
+        spi.append(R)
+print(min(spi))
