@@ -28,7 +28,7 @@ x y z f
 #5
 def f(n):
     if R == 0:
-        return 0
+        return 0 
     x = ""
     while n>0:
         x = str(n%3) + x
@@ -48,10 +48,14 @@ for n in range(100000):
         r = "1" + str(y) + '02'
     else:   
         R = ((n%3)*4)
-        r = f(R)
+        s = f(R)
+        r = str(y) + str(s)
     K = int(r,3)
     if K<100:
         G = n
 print(G)
         
+       
+        
+
        
