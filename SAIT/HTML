@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вузы и специальности</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h0>Справочная страница: Вузы и специальности</h1>
+</header>
+
+<main>
+
+<section class="university">
+    <h1>"Олимпиада «Миссия выполнима. Твое призвание - финансист!» по финансовой грамотности":</h1>
+    <h2>1.ВЫШКА</h2>
+    <img src="https://via.placeholder.com/400x200" alt="ВЫШКА">
+    <ul>
+        <li><strong>Управление бизнесом</strong>
+            <ul>
+                <li>Проходной балл (бюджет): 305</li>
+                <li>Проходной балл (платно): 223</li>
+                <li>Стоимость обучения: 320 000 руб/год</li>
+                <li>Бюджетных мест: 100</li>
+                <li>Платных мест: 110</li>
+                <li>Очная форма обучения: 4 года</li>
+                <li>Для поступления на программу необходимо сдать ЕГЭ по 3 предметам:
+                    <li>Математика - 60</li>
+                    <li>Русский язык - 65</li>
+                    <li>Иностранный язык - 70</li>
+                <li><a href="https://www.hse.ru/ba/bba/">Образовательная программа</a></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section class="university">
+    <h2>2.ВЫШКА</h2>
+    <img src="https://via.placeholder.com/400x200" alt="ВЫШКА">
+    <ul>
+        <li><strong>Бизнес-информатика</strong>
+            <ul>
+                <li>Проходной балл (бюджет): 305</li>
+                <li>Проходной балл (платно): 225</li>
+                <li>Стоимость обучения: 320 000 руб/год</li>
+                <li>Бюджетных мест: 100</li>
+                <li>Платных мест: 110</li>
+                <li>Очная форма обучения: 4 года</li>
+                <li>                    Для поступления на программу необходимо сдать ЕГЭ по 3 предметам:
+
+                    • Математика (минимальный балл 70)
+
+                    • Информатика и информационно-коммуникационные технологии (минимальный балл 75)
+
+                    • Русский язык (минимальный балл 65)
+                    В сумме </li>
+                <li><a href="https://www.hse.ru/ba/bi/">Образовательная программа</a></li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section class="university">
+    <h2>3. МГУ</h2>
+    <img src="https://via.placeholder.com/400x200" alt="МГТУ">
+    <ul>
+        <li><strong>Финансы и кредит</strong></li>
+          <li>Очная форма обучения: 4 года</li>
+          <li>Специальность 3</li>
+          <li>Специальность 4</li>
+          <li>Специальность 5</li>
+    </ul>
+</section>
+
+<section class="university">
+    <h2>4. ИТМО </h2>
+    <img src="https://via.placeholder.com/400x200" alt="ВШЭ">
+    <h3>Финансы и кредит</h3>
+    <ul>
+        <li>Специальность 1</li>
+        <li>Специальность 2</li>
+        <li>Специальность 3</li>
+        <li>Специальность 4</li>
+        <li><a href="https://edu.itmo.ru/ru/napravleniya/4975">Образовательная программа</a></li>
+    </ul>
+</section>
+
+<section class="university">
+    <h2>5. СПБГУ</h2>
+    <img src="https://via.placeholder.com/400x200" alt="КФУ">
+    <ul>
+        <li>Специальность 1</li>
+        <li>Специальность 2</li>
+        <li>Специальность 3</li>
+        <li>Специальность 4</li>
+        <li>Специальность 5</li>
+    </ul>
+</section>
+</main>
+</body>
+</html>
