@@ -1,0 +1,78 @@
+body {
+    
+}
+
+header {
+    background-color: #00F0FF;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    font-family: 'Monotype Corsiva', cursive;
+    text-align: center;
+}
+
+main {
+    
+}
+
+.hse {
+    background-color: rgb(0 155 100);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: 'HSE Sans', cursive;
+}
+
+.itmo {
+    background-color: #F93F37;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: 'Горизонт',
+    
+}
+
+.spbu {
+    background-color: #c9bcab;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+.ibd {
+    background-color: #2C2D2D;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+.guap {
+    background-color: rgb(0 190 240);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+h2 {
+    
+}
+
+ul {
+    
+}
+
+ul ul {
+    
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
