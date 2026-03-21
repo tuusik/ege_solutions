@@ -1,1 +1,114 @@
+<!DOCTYPE html>
 
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>E_DREAMS</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>E_DREAMS</h1>
+        </header>
+
+        <main>
+
+            <section class="hse">
+                
+                <img class="hse_img" src="https://www.hse.ru/mirror/pubs/share/522682491">
+
+                <ul>
+                    <li><h3>Программирование и инжиниринг компьютерных игр</h3>
+                        <ul>
+                            <li>Проходной балл (бюджет): 284</li>
+                            <li>Проходной балл (платно): 247</li>
+                            <li>Стоимость обучения: 420 000 руб/год</li>
+                            <li>Бюджетных мест: 12</li>
+                            <li>Платных мест: 40</li>
+                            <li><a href="https://www.hse.ru/">Сайт вуза</a></li>
+                            <li><a href="https://spb.hse.ru/ba/gamedev/courses">Образовательная программа</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="itmo">
+
+                <img src="https://itmo.ru/file/pages/213/logo_osnovnoy_angliyskiy_chernyy.png">
+
+                <ul>
+                    <li><h3>Технологии разработки компьютерных игр</h3>
+                        <ul>
+                            <li>Проходной балл (бюджет): 282</li>
+                            <li>Проходной балл (платно): 192</li>
+                            <li>Стоимость обучения: 459 000 руб/год</li>
+                            <li>Бюджетных мест: 27</li>
+                            <li>Платных мест: 113</li>
+                            <li><a href="https://itmo.ru/">Сайт вуза</a></li>
+                            <li><a href="https://abitlk.itmo.ru/file_storage/academic_plan/2026/academic_plan_10358_11.03.02.pdf">Образовательная программа</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="spbu">
+
+                <img class="spbu_img" src="https://optim.tildacdn.com/tild6138-6537-4235-a433-393331616664/-/resize/451x/-/format/webp/deskrip-3.png.webp">
+
+                <ul>
+                    <li><h3>Математика и компьютерные науки</h3>
+                        <ul>
+                            <li>Проходной балл (бюджет): 263</li>
+                            <li>Проходной балл (платно): 250</li>
+                            <li>Стоимость обучения: 365 000 руб/год</li>
+                            <li>Бюджетных мест: 20</li>
+                            <li>Платных мест: 5</li>
+                            <li><a href="https://spbu.ru/">Сайт вуза</a></li>
+                            <li><a href="http://publication.pravo.gov.ru/document/0001202511210014?index=1">Образовательная программа</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="ibd">
+
+                <img src="https://obe.ru/_next/static/media/logo.3ff5f12f.svg">
+
+                <ul>
+                    <li><h3>Гейм-Дизайн</h3>
+                        <ul>
+                            <li>Проходной балл (бюджет): 290</li>
+                            <li>Проходной балл (платно): 270</li>
+                            <li>Стоимость обучения: 684 000 руб/год</li>
+                            <li>Бюджетных мест: 15</li>
+                            <li>Платных мест: 25</li>
+                            <li><a href="https://obe.ru/">Сайт вуза</a></li>
+                            <li><a href="https://wp.ibnd.ru/wp-content/uploads/2025/04/Gejm-dizajn-uchebnyj-plan.pdf">Образовательная программа</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="guap">
+
+                <img src="https://static.ucheba.ru/pix/logo_cache/6183.upto100x100.webp">
+
+                <ul>
+                    <li><h3>Информационные технологии в дизайне</h3>
+                        <ul>
+                            <li>Проходной балл (бюджет): 285</li>
+                            <li>Проходной балл (платно): 270</li>
+                            <li>Стоимость обучения: 390 000 руб/год</li>
+                            <li>Бюджетных мест: 20</li>
+                            <li>Платных мест: 35</li>
+                            <li><a href="https://guap.ru/">Сайт вуза</a></li>
+                            <li><a href="https://download.guap.ru/sveden/6902/_uchplan_2025_1.pdf">Образовательная программа</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+
+</html>
