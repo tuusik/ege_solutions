@@ -77,7 +77,7 @@ for i in range(len(s) - 1):
 print(cnt, max_sum)'''
 #66 а не 11 почему
 
-def game(first, second, n):
+'''def game(first, second, n):
     if first + second == 13 or n > 4:
         return n == 4
     
@@ -92,4 +92,27 @@ def game(first, second, n):
 
 for s in range(1, 10):
     if game(3, s, 0):
-        print(s)
+        print(s)'''
+
+'''def f(x, A):
+    p1 = x % 22229 == 0
+    p2 = not(x % A == 0)
+    p3 = not(x % 22247 == 0)
+    return p1 <= (p2 <= p3)
+
+for A in range(1, 100_000):
+    if all(f(x, A) for x in range(1, 100_000)):
+        print(A)
+#кодом не решить, надо думать'''
+
+from itertools import product
+
+cnt = 0
+
+for i in range(3, 6):
+    for x in product('КРЫША', repeat = i):
+        x = ''.join(x)
+        if (x.count('Ы') <= 2 and x.count('А') <= 2) and ((x[0] in 'КРШ' and x.count('К') + x.count('Р') + x.count('Ш') == 1) or (x.count('К') + x.count('Р') + x.count('Ш') == 0)):
+            print(x)
+            cnt += 1
+print(cnt)
