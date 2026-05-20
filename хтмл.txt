@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+
+<body>
+
+
+<h1>/</h1>-заголовок
+<h2>/</h2>-заголовок 		<h1>PONOS</h1>
+<h3>/</h3>-заголовок 
+
+<p>/</p>- обзац
+
+<br>-разрыв  			<p>буэбуэуэбэу <br> буэбуэ</p>
+
+				<p><a href=https://help.steampowered.com/ru/faqs/view/68D2-35AB-09A9-7678> буэбуэуэбэу <br> буэбуэ</p>
+				
+<ol>
+
+<li> 1</li>
+<li> 2</li>
+
+</ol>-списки				
+
+<img src=" " width=200 height=200 alt='caaaaaaat'> 
+
+</body>
+
+</html>
+
+
+5 вызов и 5 специальностей

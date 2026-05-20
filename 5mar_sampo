@@ -1,0 +1,61 @@
+'''print('x y w z f')
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            for w in range(2):
+                if (not(y<=(x==w))) and (z<=x):
+                    f = 1
+                else:
+                    f = 0
+                print(x, y, z, w, f)
+#x y w z f
+#0 1 0 1 1
+#1 1 0 0 1
+#1 1 1 0 1'''
+
+'''from turtle import *
+k = 20
+speed(0)
+for i in range(9):
+    forward(30*k)
+    right(90)
+    forward(12*k)
+    right(90)
+up()
+left(270)
+forward(5*k)
+left(90)
+
+down()
+for i in range(2):
+    forward(24*k)
+    right(90)
+    forward(28*k)
+    right(90)
+    
+for x in range(10):
+    for y in range(10):
+        goto(x*k, y*k) - 180)
+        dot(5, 'red')
+update()'''
+
+'''from sys import  setrecursionlimit
+setrecursionlimit(10000)
+def f(n):
+    if n < 3:
+        return 1
+    if n > 2 and n % 2 == 0:
+        return f(n-1)+2*n-1
+    else:
+        return f(n-2)+2
+print(f(21)-f(19))'''
+
+def f(x ,y):
+    if x > y or x == 8:
+        return 0
+    if x == y:
+        return 1
+    if x < y:
+        return f(x+2, y)+f(x*3, y)
+
+print(f(2,  50)* f(50, 60))
